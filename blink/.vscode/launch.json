@@ -12,7 +12,7 @@
             "cwd": "${workspaceRoot}",
             "MIMode": "gdb",
             "targetArchitecture": "arm",
-            "miDebuggerPath": "/usr/bin/arm-none-eabi-gdb",
+            "miDebuggerPath": "/home/nilay/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/arm-none-eabi-gdb",
             "debugServerPath": "/usr/bin/openocd",
             "debugServerArgs": "-f interface/stlink-v2.cfg -f target/stm32f1x.cfg",
             "customLaunchSetupCommands": [
