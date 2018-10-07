@@ -1,0 +1,10 @@
+{
+  "builtInLibrariesFolders": "/home/nilay/arduino-1.8.3/libraries",
+  "customBuildProperties": "build.path=/home/nilay/STM32/STM32-ArduinoWithDebug/blink/.build/genericSTM32F103C,build.warn_data_percentage=75,runtime.tools.stm32tools.path=/home/nilay/.arduino15/packages/stm32duino/tools/stm32tools/2018.9.24,runtime.tools.arm-none-eabi-gcc.path=/home/nilay/.arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1",
+  "fqbn": "stm32duino:STM32F1:genericSTM32F103C:device_variant=STM32F103CB,upload_method=STLinkMethod,cpu_speed=speed_72mhz,opt=osstd",
+  "hardwareFolders": "/home/nilay/arduino-1.8.3/hardware,/home/nilay/.arduino15/packages",
+  "otherLibrariesFolders": "/home/nilay/Arduino/libraries",
+  "runtime.ide.version": "10803",
+  "sketchLocation": "/home/nilay/STM32/STM32-ArduinoWithDebug/blink/blink.ino",
+  "toolsFolders": "/home/nilay/arduino-1.8.3/tools-builder,/home/nilay/arduino-1.8.3/hardware/tools/avr,/home/nilay/.arduino15/packages"
+}
