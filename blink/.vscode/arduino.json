@@ -2,5 +2,6 @@
     "board": "stm32duino:STM32F1:genericSTM32F103C",
     "configuration": "device_variant=STM32F103CB,upload_method=STLinkMethod,cpu_speed=speed_72mhz,opt=osstd",
     "sketch": "blink.ino",
-    "port": "/dev/ttyS0"
+    "port": "/dev/ttyS0",
+    "output": ".build"
 }
