@@ -13,23 +13,26 @@
   ![stlink-screenshot](.readme-res/stlink-screenshot.png) 
 
   
+  
+  
 
 *   First make it Programmable using **Arduino IDE(1.8.x)**: Installing the Boards by adding a repository for the Additional Boards Manager:
 	1. In Arduino IDE, **click File -> Preferences**. 
 	2. Then click on the edit button next to **'Additional Boards Manager URLs'**. 
 	3. There, add the URL of the STM32duino boards manager package json file: 
-	    
+	   
 	    >`http://dan.drown.org/stm32duino/package_STM32duino_index.json`
 * Run Arduino IDE, and **open the menu Tools -> Boards -> Boards Manager**. Install the "**STM32F1xx/GD32F1xx** boards by *stm32duino*" package. This will install the necessary compilers for the platform.
 
 * Run install.sh below to install udev rules to enable stlinkv2 to work (and without root) in the Arduino IDE :
-    
+  
     >`/home/$USER/.arduino15/packages/stm32duino/tools/stm32tools/2018.9.24/linux/install.sh`
     
 * Now Again Open Additional Boards Manager of the Arduino IDE :
 
 	Install `Arduino SAMD Boards (32-bits ARM Cortex-M0+)`. This will give us the OpenOCD debugger tool.
 	To Check if its present : Run
+	
 	> `/home/$USER/.arduino15/packages/arduino/tools/openocd/0.9.0-arduino6-static/bin/openocd`
 * Its neccessary to install OpenOCD systemwide on my system(otherwise this does'nt work):
 
@@ -37,7 +40,7 @@
 * Install Visual Studio Code and Arduino Extension for VSCODE. Then :
 
 	1. Press `F1` and slect **Arduino:Initialise** 
-	    
+	   
 	    OR 
 	   
 	   **Open File > Preferences > Settings**. Search for "Arduino". Scrool down to `Arduino:Path`. Then enter the path of your Arduino IDE install location :
